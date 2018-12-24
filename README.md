@@ -76,7 +76,7 @@ http.Handle("/", lw.Handler(nextHandler, failHandler)
 
 ```
 
-Feel free to open an issue in case any modification are required. 
+Feel free to open an issue in case any modifications are required. 
 
 ### TODO !
 
