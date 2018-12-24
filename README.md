@@ -72,7 +72,7 @@ func fail(w http.ResponseWriter, r *http.Request) {
 nextHandler := http.HandlerFunc(next)
 failHandler := http.HandlerFunc(fail)
 
-http.Handle("/", lw.Handler(nextHandler, failHandler)
+http.Handle("/", lw.Handler(nextHandler, failHandler))
 
 ```
 
